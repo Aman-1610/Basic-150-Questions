@@ -1,8 +1,15 @@
-import java.util.*;
-class Question15
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Question17 
 {
     public static void main(String args[])
     {
+        ArrayList<Integer> arr1= new ArrayList<> (10);
+        arr1.add(87);
+        arr1.add(98);
+        System.out.println(arr1);
         Scanner sc=new Scanner(System.in);
         int[][] arr=new int[3][3];
         System.out.println("Enetr the 3 X 3 matrix: ");
@@ -36,5 +43,8 @@ class Question15
        {
            System.out.println(Arrays.toString(a));
        }
+       arr1.add(90);
+       System.out.println(arr1);
     }
+    
 }
